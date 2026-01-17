@@ -112,9 +112,10 @@
 
 ### Responsive Breakpoints
 
-- **Desktop**: 1200px and above
-- **Tablet**: 768px - 1199px
-- **Mobile**: Below 768px
+- **Small device:** up to 576 px 
+- **Medium Device:** 576px to 992 px 
+- **Large Device:** above 992 px 
+
 
 ---
 
