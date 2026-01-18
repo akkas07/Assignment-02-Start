@@ -120,6 +120,7 @@
 }
 
 .sub {
+  
   background: hsla(257, 83%, 48%, 0.493);
   color: hwb(142 4% 11%);
   padding: 12px 24px;
@@ -146,13 +147,13 @@
 .about-text {
   font-size: 16px;
   line-height: 1.8;
-  max-width: 700px;
+  max-width: 500px;
   margin: 0 auto 20px;
 }
 
 .about-join {
   font-size: 16px;
-  color: #4ade80; /* green highlight */
+  color: hsl(142, 95%, 48%); /* green highlight */
   margin-bottom: 40px;
 }
 
@@ -161,14 +162,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
 }
 
 .stat-box {
   background-color: #312e81;
   padding: 20px 30px;
   border-radius: 10px;
-  width: 200px;
+  width: 150px;
   transition: transform 0.3s ease;
 }
 
@@ -178,13 +179,13 @@
 
 .stat-box h3 {
   font-size: 28px;
-  color: #4ade80;
+  color: hsl(142, 96%, 52%);
   margin-bottom: 10px;
 }
 
 .stat-box p {
   font-size: 14px;
-  color: #e5e7eb;
+  color: hwb(220 90% 8%);
 }
 
 
@@ -194,12 +195,69 @@
   }
 }
 
+
 @media (max-width: 480px) {
   .stat-box {
     width: 100%;
   }
 }
 
+
+
+
+
+
+/* take-wave Section */
+.take-wave {
+  background-color: #1e1b4b; 
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.take-wave h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+/* Grid Layout */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Feature Card */
+.feature-card {
+  background-color: #312e81;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-15px);
+}
+
+.feature-card img {
+  width: 50px;
+  margin-bottom: 18px;
+}
+
+.feature-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #4ade80; 
+}
+
+.feature-card p {
+  font-size: 14px;
+  color: #e5e7eb;
+  line-height: 1.9;
+}
 
 
 
