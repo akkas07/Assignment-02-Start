@@ -20,7 +20,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 40px;
-  background: #fff;
+  background:rgb(192, 43, 192);
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
@@ -57,26 +57,26 @@
 /* Banner */
 .banner {
   text-align: center;
-  background: linear-gradient(to right, #ec4899, #8b5cf6, #facc15);
-  color: #fff;
+  background: linear-gradient(to right, #72688c, #5a4195, #927c24);
+  color: white;
   padding: 80px 20px;
 }
 
 .circle {
   width: 160px;
   height: 160px;
-  background: #fff;
+  background: linear-gradient(45deg, #ffcc00, #ff00ff, #8a2be2);
   border-radius: 50%;
   margin: auto;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 12px #f40ab2;
 }
 
 .circle img {
-    background-image: url(./assets/hero-circle.png);
+    background-image: url(./assets/hero-bg.png);
   width: 70px;
 }
 
@@ -84,8 +84,8 @@
   position: absolute;
   top: -10px;
   right: -10px;
-  background: #22c55e;
-  color: #e0151f;
+  background: hsl(143, 56%, 46%);
+  color: white;
   font-size: 12px;
   padding: 4px 8px;
   border-radius: 20px;
@@ -111,8 +111,8 @@
 }
 
 .spotify {
-  background: linear-gradient(to right, #ec4899, #facc15);
-  color: #fff;
+  background:linear-gradient(45deg, #ffcc00, #ff00ff, #8a2be2);
+  color: white;
   padding: 12px 24px;
   border: none;
   border-radius: 6px;
@@ -120,12 +120,84 @@
 }
 
 .sub {
-  background: #22c55e;
-  color: #fff;
+  background: hsla(257, 83%, 48%, 0.493);
+  color: hwb(142 4% 11%);
   padding: 12px 24px;
   border: none;
   border-radius: 6px;
   cursor: pointer;
+}
+
+
+
+/* About Section Styling */
+.about-section {
+  background-color: #1e1b4b; /* dark purple */
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  font-size: 16px;
+  line-height: 1.8;
+  max-width: 700px;
+  margin: 0 auto 20px;
+}
+
+.about-join {
+  font-size: 16px;
+  color: #4ade80; /* green highlight */
+  margin-bottom: 40px;
+}
+
+/* Stats Grid */
+.stats-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.stat-box {
+  background-color: #312e81;
+  padding: 20px 30px;
+  border-radius: 10px;
+  width: 200px;
+  transition: transform 0.3s ease;
+}
+
+.stat-box:hover {
+  transform: scale(1.05);
+}
+
+.stat-box h3 {
+  font-size: 28px;
+  color: #4ade80;
+  margin-bottom: 10px;
+}
+
+.stat-box p {
+  font-size: 14px;
+  color: #e5e7eb;
+}
+
+
+@media (max-width: 768px) {
+  .stat-box {
+    width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .stat-box {
+    width: 100%;
+  }
 }
 
 
