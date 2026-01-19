@@ -6,11 +6,13 @@
     
 }
 
+
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 
 }
+
 
 /* Navbar */
 
@@ -24,11 +26,15 @@
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
+
+
 .logo {
   font-size: 24px;
   font-weight: bold;
   color: #333;
 }
+
+
 
 .menu {
   display: flex;
@@ -36,11 +42,15 @@
   list-style: none;
 }
 
+
+
 .menu a {
   text-decoration: none;
   color: #444;
   font-weight: 500;
 }
+
+
 
 .subscribe {
   background: linear-gradient(to right, #ec4899, #facc15);
@@ -55,12 +65,15 @@
 
 
 /* Banner */
+
 .banner {
   text-align: center;
   background: linear-gradient(to right, #72688c, #5a4195, #927c24);
   color: white;
   padding: 80px 20px;
 }
+
+
 
 .circle {
   width: 160px;
@@ -75,10 +88,14 @@
   box-shadow: 0 4px 12px #f40ab2;
 }
 
+
+
 .circle img {
     background-image: url(./assets/hero-bg.png);
   width: 70px;
 }
+
+
 
 .new {
   position: absolute;
@@ -90,6 +107,8 @@
   padding: 4px 8px;
   border-radius: 20px;
 }
+
+
 
 .title {
   font-size: 40px;
@@ -103,12 +122,16 @@
   margin: 20px auto;
 }
 
+
+
 .buttons {
   margin-top: 30px;
   display: flex;
   justify-content: center;
   gap: 15px;
 }
+
+
 
 .spotify {
   background:linear-gradient(45deg, #ffcc00, #ff00ff, #8a2be2);
@@ -118,6 +141,10 @@
   border-radius: 6px;
   cursor: pointer;
 }
+
+
+
+
 
 .sub {
   
@@ -131,39 +158,55 @@
 
 
 
+
 /* About Section Styling */
+
 .about-section {
-  background-color: #1e1b4b; /* dark purple */
+  background-color: #1e1b4b; 
   color: white;
   padding: 60px 20px;
   text-align: center;
 }
 
+
+
 .about-section h2 {
+    
   font-size: 32px;
   margin-bottom: 20px;
 }
 
+
+
 .about-text {
+      align-items: center;
+      justify-content: space-between;
   font-size: 16px;
   line-height: 1.8;
   max-width: 500px;
   margin: 0 auto 20px;
 }
 
+
 .about-join {
   font-size: 16px;
-  color: hsl(142, 95%, 48%); /* green highlight */
+  color: hsl(142, 95%, 48%);
   margin-bottom: 40px;
 }
 
+
+
 /* Stats Grid */
+
 .stats-grid {
+  
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
 }
+
+
 
 .stat-box {
   background-color: #312e81;
@@ -173,15 +216,20 @@
   transition: transform 0.3s ease;
 }
 
+
 .stat-box:hover {
   transform: scale(1.05);
 }
+
+
 
 .stat-box h3 {
   font-size: 28px;
   color: hsl(142, 96%, 52%);
   margin-bottom: 10px;
 }
+
+
 
 .stat-box p {
   font-size: 14px;
@@ -196,6 +244,7 @@
 }
 
 
+
 @media (max-width: 480px) {
   .stat-box {
     width: 100%;
@@ -207,7 +256,10 @@
 
 
 
+
 /* take-wave Section */
+
+
 .take-wave {
   background-color: #1e1b4b; 
   color: white;
@@ -215,12 +267,15 @@
   text-align: center;
 }
 
+
 .take-wave h2 {
   font-size: 32px;
   margin-bottom: 40px;
 }
 
+
 /* Grid Layout */
+
 .features-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
@@ -229,7 +284,10 @@
   margin: 0 auto;
 }
 
+
+
 /* Feature Card */
+
 .feature-card {
   background-color: #312e81;
   padding: 20px;
@@ -238,20 +296,26 @@
   transition: transform 0.3s ease;
 }
 
+
 .feature-card:hover {
   transform: translateY(-15px);
 }
+
 
 .feature-card img {
   width: 50px;
   margin-bottom: 18px;
 }
 
+
+
 .feature-card h3 {
   font-size: 20px;
   margin-bottom: 10px;
   color: #4ade80; 
 }
+
+
 
 .feature-card p {
   font-size: 14px;
@@ -261,4 +325,50 @@
 
 
 
+
+.episodes-section {
+  background-color: #1e1b4b;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.episodes-section h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.episodes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.episode-card {
+  background-color: #312e81;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+}
+
+.episode-card h3 {
+  font-size: 20px;
+  margin: 15px 0 10px;
+  color: #4ade80;
+}
+
+.episode-card p {
+  font-size: 14px;
+  color: #e5e7eb;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.duration {
+  font-size: 13px;
+  color: #a5b4fc;
+  font-weight: bold;
+}
 
