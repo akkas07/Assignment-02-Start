@@ -14,16 +14,23 @@
 }
 
 
+
+
 /* Navbar */
+
+.navbar {
+  background: linear-gradient(to right, #8b5cf6, #ec4899);
+}
+
 
 
 .navbar {
+  background: linear-gradient (45deg,   #95833a,#ff00ff, #8a2be2 );
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 40px;
-  background:rgb(192, 43, 192);
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 20px 40px;
+  box-shadow: 0 2px 6px rgba(158, 39, 39, 0.1);
 }
 
 
@@ -31,9 +38,8 @@
 .logo {
   font-size: 24px;
   font-weight: bold;
-  color: #333;
+  color:white;
 }
-
 
 
 .menu {
@@ -43,18 +49,17 @@
 }
 
 
-
 .menu a {
+
   text-decoration: none;
-  color: #444;
+  color: white;
   font-weight: 500;
 }
+ 
 
-
-
-.subscribe {
+.subscribe-btn {
   background: linear-gradient(to right, #ec4899, #facc15);
-  color: #fff;
+  color: #ffffff;
   padding: 10px 20px;
   border: none;
   border-radius: 6px;
@@ -67,41 +72,47 @@
 /* Banner */
 
 .banner {
+  background: linear-gradient(to right, #b23f78, #8b5cf6, #85763c);
+  color: #ffffff;
   text-align: center;
-  background: linear-gradient(to right, #72688c, #5a4195, #927c24);
-  color: white;
-  padding: 80px 20px;
+  padding: 100px 20px 60px;
+  position: relative;
 }
 
+
+
+
+
+
+/* Circle Logo */
 
 
 .circle {
   width: 160px;
   height: 160px;
-  background: linear-gradient(45deg, #ffcc00, #ff00ff, #8a2be2);
+  background: linear-gradient( 45deg,  #ffcc00, #8a2be2)  ;
   border-radius: 50%;
   margin: auto;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 12px #f40ab2;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
 
 
 .circle img {
-    background-image: url(./assets/hero-bg.png);
   width: 70px;
 }
 
 
 
-.new {
+.new-label {
   position: absolute;
   top: -10px;
   right: -10px;
-  background: hsl(143, 56%, 46%);
+  background: #22c55e;
   color: white;
   font-size: 12px;
   padding: 4px 8px;
@@ -110,11 +121,15 @@
 
 
 
+/* Texts */
+
 .title {
   font-size: 40px;
   font-weight: bold;
   margin-top: 30px;
 }
+
+
 
 .tagline {
   font-size: 18px;
@@ -123,18 +138,19 @@
 }
 
 
+/* Buttons */
 
-.buttons {
+.action-buttons {
   margin-top: 30px;
   display: flex;
   justify-content: center;
   gap: 15px;
+  flex-wrap: wrap;
 }
 
 
-
-.spotify {
-  background:linear-gradient(45deg, #ffcc00, #ff00ff, #8a2be2);
+.spotify-btn {
+  background: linear-gradient(to right, #ec4899, #f97316);
   color: white;
   padding: 12px 24px;
   border: none;
@@ -143,13 +159,9 @@
 }
 
 
-
-
-
-.sub {
-  
-  background: hsla(257, 83%, 48%, 0.493);
-  color: hwb(142 4% 11%);
+.green-btn {
+  background: #22c55e;
+  color: white;
   padding: 12px 24px;
   border: none;
   border-radius: 6px;
@@ -162,7 +174,7 @@
 /* About Section Styling */
 
 .about-section {
-  background-color: #1e1b4b; 
+ background: linear-gradient(to right, #521e96, #571d27, #1f052b);
   color: white;
   padding: 60px 20px;
   text-align: center;
@@ -261,7 +273,7 @@
 
 
 .take-wave {
-  background-color: #1e1b4b; 
+  background: linear-gradient(to right, #581fa2, #bd4658, #57996e);
   color: white;
   padding: 60px 20px;
   text-align: center;
@@ -289,7 +301,7 @@
 /* Feature Card */
 
 .feature-card {
-  background-color: #312e81;
+  background-color: #55159a;
   padding: 20px;
   border-radius: 12px;
   text-align: center;
@@ -328,7 +340,7 @@
 
 
 .episodes-section {
-  background-color: #1e1b4b;
+  background: linear-gradient(to right, #2e0419, #8b5cf6);
   color: white;
   padding: 60px 20px;
   text-align: center;
@@ -353,7 +365,7 @@
 
 
 .episode-card {
-  background-color: #312e81;
+  background: linear-gradient(to right, #920c7e, #8b5cf6);
   padding: 20px;
   border-radius: 12px;
   text-align: left;
@@ -364,7 +376,7 @@
 .episode-card h3 {
   font-size: 20px;
   margin: 15px 0 10px;
-  color: #4ade80;
+  color: #cedbd3;
 }
 
 
@@ -380,7 +392,7 @@
 
 .duration {
   font-size: 13px;
-  color: #a5b4fc;
+  color: hsl(230, 66%, 36%);
   font-weight: bold;
 }
 
@@ -393,7 +405,7 @@
 
 
 .host-section {
-  background-color: #1e1b4b;
+ background: linear-gradient(to right, #6e31b9, #be5667, #1c4bb0);
   color: white;
   padding: 60px 20px;
   text-align: center;
@@ -414,7 +426,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to right, #30091c08, #2a0927);
+  background: linear-gradient(to right, #84305708, #c50db6);
   padding: 30px;
   border-radius: 12px;
   max-width: 1000px;
@@ -433,7 +445,7 @@
   height: 180px;
   border-radius: 50%;
   object-fit: cover;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 12px rgba(92, 87, 87, 0.3);
 }
 
 
@@ -451,7 +463,7 @@
 
 .host-info h3 {
   font-size: 24px;
-  color: hwb(143 84% 11%);
+  color:white;
   margin-bottom: 10px;
 }
 
@@ -459,7 +471,7 @@
 
 .host-info p {
   font-size: 15px;
-  color: #e5e7eb;
+  color: hsl(220, 13%, 91%);
   line-height: 1.8;
 }
 
@@ -530,7 +542,7 @@
 }
 
 .gradient-text {
-  background: linear-gradient(to right, #ec4899, #8b5cf6);
+  background: linear-gradient(to right, hsl(330, 98%, 44%), #8b5cf6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
