@@ -326,6 +326,7 @@
 
 
 
+
 .episodes-section {
   background-color: #1e1b4b;
   color: white;
@@ -333,10 +334,13 @@
   text-align: center;
 }
 
+
 .episodes-section h2 {
   font-size: 32px;
   margin-bottom: 40px;
 }
+
+
 
 .episodes-grid {
   display: grid;
@@ -346,6 +350,8 @@
   margin: 0 auto;
 }
 
+
+
 .episode-card {
   background-color: #312e81;
   padding: 20px;
@@ -353,11 +359,15 @@
   text-align: left;
 }
 
+
+
 .episode-card h3 {
   font-size: 20px;
   margin: 15px 0 10px;
   color: #4ade80;
 }
+
+
 
 .episode-card p {
   font-size: 14px;
@@ -366,9 +376,124 @@
   margin-bottom: 10px;
 }
 
+
+
 .duration {
   font-size: 13px;
   color: #a5b4fc;
   font-weight: bold;
 }
 
+
+
+
+
+
+/* Host Section */
+
+
+.host-section {
+  background-color: #1e1b4b;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+
+.host-section h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+
+
+/* Host Card Layout */
+
+.host-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #312e81;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+
+
+
+
+/* Host Image */
+
+.host-image {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+
+
+
+/* Host Info */
+
+
+.host-info {
+  max-width: 600px;
+  text-align: left;
+}
+
+
+
+.host-info h3 {
+  font-size: 24px;
+  color: #4ade80;
+  margin-bottom: 10px;
+}
+
+
+
+.host-info p {
+  font-size: 15px;
+  color: #e5e7eb;
+  line-height: 1.8;
+}
+
+
+
+/* Social Icons */
+
+.social-icons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+
+
+.social-icons img {
+  width: 30px;
+  height: 28px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+
+
+@media (max-width: 768px) {
+  .host-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .host-info {
+    text-align: center;
+  }
+}
