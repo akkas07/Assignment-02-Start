@@ -414,7 +414,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  background-color: #312e81;
+  background: linear-gradient(to right, #30091c08, #2a0927);
   padding: 30px;
   border-radius: 12px;
   max-width: 1000px;
@@ -451,7 +451,7 @@
 
 .host-info h3 {
   font-size: 24px;
-  color: #4ade80;
+  color: hwb(143 84% 11%);
   margin-bottom: 10px;
 }
 
@@ -496,4 +496,65 @@
   .host-info {
     text-align: center;
   }
+}
+
+
+
+
+.footer-section {
+  background-image: url('./assets/footer-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+/* Content wrapper */
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Title Styling */
+.footer-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.white-text {
+  color: rgb(209, 197, 197);
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #ec4899, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Platform Icons */
+.platform-icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.platform-icons img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.platform-icons img:hover {
+  transform: scale(1.2);
+}
+
+/* Copyright */
+.footer-section .copyright {
+  font-size: 14px;
+  color: #cbd5e1;
 }
